@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Food Ordering Website</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(45deg, #ff7a18, #ff5722);
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #222;
+            padding: 15px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .hero {
+            background-image: url('Bg.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 30px;
+            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 0;
+        }
+        .menu {
+            padding: 40px;
+            text-align: center;
+        }
+        .menu h2 {
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            color: #ff5722;
+        }
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .menu-item {
+            background-color: white;
+            margin: 15px;
+            padding: 25px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .menu-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .menu-item img {
+            width: 190px;
+            height: 150px;
+            border-radius: 10%;
+            margin-bottom: 10px;
+        }
+        .menu-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .menu-item p {
+            margin: 5px 0;
+        }
+        .menu-item strong {
+            color: #ff5722;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Peace Bites</h1>
+        <p>Your favorite food, delivered fast and fresh!</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Welcome to Peace Bites</h1>
+        <p>Order your favorite meals with just a few clicks!</p>
+        <p>EAT!!  PEACE!!  REPEAT!!</p>
+    </div>
+
+    <section class="menu" id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="meals.jpeg" alt="Meals Image">
+                <h3>Meals</h3>
+                <p>Home-made like</p>
+                <p><strong>Price: ₹90 onwards</strong></p>
+            </div>
+            <div class="menu-item">
+                <img src="tiffn.jpeg" alt="Tiffin Image">
+                <h3>Tiffin</h3>
+                <p>Spicy and Tasty</p>
+                <p><strong>Price: ₹25 onwards</strong></p>
+            </div>
+            <div class="menu-item">
+                <img src="biriyani.jpeg" alt="Biriyani Image">
+                <h3>Biriyani</h3>
+                <p>Rich and Delicious</p>
+                <p><strong>Price: ₹150 onwars</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delicious Bites. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
